@@ -11,8 +11,9 @@ namespace QLQuanCafe.Service
 {
     public interface ITableService
     {
-        void Add(Table table);
-        void Delete(Table table);
+        //void Add(Table table);
+        Table Add(Table table);
+        void Delete(int id);
         void Update(Table table);
         IEnumerable<Table> GetAll();
         IEnumerable<Table> GetAllPaging(int page, int pageSize, out int totalRow);
@@ -32,14 +33,14 @@ namespace QLQuanCafe.Service
             _unitOfWork = unitOfWork;
         }
 
-        public void Add(Table table)
+        public Table Add(Table table)
         {
-            _tableRepository.Add(table);
+           return _tableRepository.Add(table);
         }
 
-        public void Delete(Table table)
+        public void Delete(int id)
         {
-            _tableRepository.Delete(table);
+            _tableRepository.Delete(id);
         }
 
         public IEnumerable<Table> GetAll()
@@ -72,14 +73,15 @@ namespace QLQuanCafe.Service
             return _tableRepository.GetSingleById(id);
         }
 
-        public void SaveChange()
-        {
-            _unitOfWork.Commit();
-        }
 
         public void Update(Table table)
         {
             _tableRepository.Update(table);
+        }
+
+        public void SaveChange()
+        {
+            _unitOfWork.Commit();
         }
     }
 }
