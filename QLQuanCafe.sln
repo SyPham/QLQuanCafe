@@ -5,15 +5,15 @@ VisualStudioVersion = 16.0.28803.352
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QLQuanCafe.Common", "QLQuanCafe.Common\QLQuanCafe.Common.csproj", "{71A8ADE7-5E95-4C6A-BFC1-BB619A4251AB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QLQuanCafe.Data", "QLQuanCafe.Data\QLQuanCafe.Data.csproj", "{9259150B-95E2-49A8-9EE5-7129E224964C}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QLQuanCafe.Model", "QLQuanCafe.Model\QLQuanCafe.Model.csproj", "{E035AA4F-EAA9-4406-A5C4-B7E734DDD9E4}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QLQuanCafe.Service", "QLQuanCafe.Service\QLQuanCafe.Service.csproj", "{9C666CFE-6561-4C8D-BA87-6419C1C3CB9A}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QLQuanCafe.UnitTest", "QLQuanCafe.UnitTest\QLQuanCafe.UnitTest.csproj", "{247CB626-0C5C-4678-877A-E83ECB15F874}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QLQuanCafe.Web", "QLQuanCafe.Web\QLQuanCafe.Web.csproj", "{5D9840E1-30A9-4AF5-B10E-F8FB35310AB5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QLQuanCafe.Web", "QLQuanCafe.Web\QLQuanCafe.Web.csproj", "{6CCC847E-54E8-4FD6-9750-A4B9619B99CD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QLQuanCafe.Data", "QLQuanCafe.Data\QLQuanCafe.Data.csproj", "{436A8CB5-318C-451F-A881-04C98C86F66D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -25,10 +25,6 @@ Global
 		{71A8ADE7-5E95-4C6A-BFC1-BB619A4251AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{71A8ADE7-5E95-4C6A-BFC1-BB619A4251AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{71A8ADE7-5E95-4C6A-BFC1-BB619A4251AB}.Release|Any CPU.Build.0 = Release|Any CPU
-		{9259150B-95E2-49A8-9EE5-7129E224964C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{9259150B-95E2-49A8-9EE5-7129E224964C}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{9259150B-95E2-49A8-9EE5-7129E224964C}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{9259150B-95E2-49A8-9EE5-7129E224964C}.Release|Any CPU.Build.0 = Release|Any CPU
 		{E035AA4F-EAA9-4406-A5C4-B7E734DDD9E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{E035AA4F-EAA9-4406-A5C4-B7E734DDD9E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E035AA4F-EAA9-4406-A5C4-B7E734DDD9E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -41,10 +37,14 @@ Global
 		{247CB626-0C5C-4678-877A-E83ECB15F874}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{247CB626-0C5C-4678-877A-E83ECB15F874}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{247CB626-0C5C-4678-877A-E83ECB15F874}.Release|Any CPU.Build.0 = Release|Any CPU
-		{5D9840E1-30A9-4AF5-B10E-F8FB35310AB5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{5D9840E1-30A9-4AF5-B10E-F8FB35310AB5}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{5D9840E1-30A9-4AF5-B10E-F8FB35310AB5}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{5D9840E1-30A9-4AF5-B10E-F8FB35310AB5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6CCC847E-54E8-4FD6-9750-A4B9619B99CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6CCC847E-54E8-4FD6-9750-A4B9619B99CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6CCC847E-54E8-4FD6-9750-A4B9619B99CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6CCC847E-54E8-4FD6-9750-A4B9619B99CD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{436A8CB5-318C-451F-A881-04C98C86F66D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{436A8CB5-318C-451F-A881-04C98C86F66D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{436A8CB5-318C-451F-A881-04C98C86F66D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{436A8CB5-318C-451F-A881-04C98C86F66D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

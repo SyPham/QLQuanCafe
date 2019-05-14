@@ -48,12 +48,27 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
+    <Compile Include="ErrorService.cs" />
+    <Compile Include="TableService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\QLQuanCafe.Common\QLQuanCafe.Common.csproj">
+      <Project>{71a8ade7-5e95-4c6a-bfc1-bb619a4251ab}</Project>
+      <Name>QLQuanCafe.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\QLQuanCafe.Data\QLQuanCafe.Data.csproj">
+      <Project>{436A8CB5-318C-451F-A881-04C98C86F66D}</Project>
+      <Name>QLQuanCafe.Data</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\QLQuanCafe.Model\QLQuanCafe.Model.csproj">
+      <Project>{E035AA4F-EAA9-4406-A5C4-B7E734DDD9E4}</Project>
+      <Name>QLQuanCafe.Model</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
