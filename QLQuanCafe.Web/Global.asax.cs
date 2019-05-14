@@ -1,5 +1,9 @@
+<<<<<<< HEAD
 ﻿using QLQuanCafe.Web.Mappings;
 using System;
+=======
+﻿using System;
+>>>>>>> 5e2fe6c58a334e0d0325e2c28574de322a3778c7
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;

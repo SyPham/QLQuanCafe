@@ -1,9 +1,15 @@
+<<<<<<< HEAD
 ﻿using AutoMapper;
 using QLQuanCafe.Model.Model;
 using QLQuanCafe.Service;
 using QLQuanCafe.Web.Infrastructure.Core;
 using QLQuanCafe.Web.Infrastructure.Extensions;
 using QLQuanCafe.Web.Models;
+=======
+﻿using QLQuanCafe.Model.Model;
+using QLQuanCafe.Service;
+using QLQuanCafe.Web.Infrastructure.Core;
+>>>>>>> 5e2fe6c58a334e0d0325e2c28574de322a3778c7
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -21,6 +27,7 @@ namespace QLQuanCafe.Web.Api
         {
             this._tableService = tableService;
         }
+<<<<<<< HEAD
         [Route("getall")]
         public HttpResponseMessage Get(HttpRequestMessage request)
         {
@@ -104,5 +111,8 @@ namespace QLQuanCafe.Web.Api
                 return response;
             });
         }
+=======
+       
+>>>>>>> 5e2fe6c58a334e0d0325e2c28574de322a3778c7
     }
 }

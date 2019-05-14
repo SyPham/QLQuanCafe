@@ -11,9 +11,14 @@ namespace QLQuanCafe.Service
 {
     public interface ITableService
     {
+<<<<<<< HEAD
         //void Add(Table table);
         Table Add(Table table);
         void Delete(int id);
+=======
+        void Add(Table table);
+        void Delete(Table table);
+>>>>>>> 5e2fe6c58a334e0d0325e2c28574de322a3778c7
         void Update(Table table);
         IEnumerable<Table> GetAll();
         IEnumerable<Table> GetAllPaging(int page, int pageSize, out int totalRow);
@@ -33,6 +38,7 @@ namespace QLQuanCafe.Service
             _unitOfWork = unitOfWork;
         }
 
+<<<<<<< HEAD
         public Table Add(Table table)
         {
            return _tableRepository.Add(table);
@@ -41,6 +47,16 @@ namespace QLQuanCafe.Service
         public void Delete(int id)
         {
             _tableRepository.Delete(id);
+=======
+        public void Add(Table table)
+        {
+            _tableRepository.Add(table);
+        }
+
+        public void Delete(Table table)
+        {
+            _tableRepository.Delete(table);
+>>>>>>> 5e2fe6c58a334e0d0325e2c28574de322a3778c7
         }
 
         public IEnumerable<Table> GetAll()
@@ -73,6 +89,7 @@ namespace QLQuanCafe.Service
             return _tableRepository.GetSingleById(id);
         }
 
+<<<<<<< HEAD
 
         public void Update(Table table)
         {
@@ -82,6 +99,16 @@ namespace QLQuanCafe.Service
         public void SaveChange()
         {
             _unitOfWork.Commit();
+=======
+        public void SaveChange()
+        {
+            _unitOfWork.Commit();
+        }
+
+        public void Update(Table table)
+        {
+            _tableRepository.Update(table);
+>>>>>>> 5e2fe6c58a334e0d0325e2c28574de322a3778c7
         }
     }
 }

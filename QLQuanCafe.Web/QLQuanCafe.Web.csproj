@@ -165,10 +165,13 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Infrastructure\Core\ApiControllerBase.cs" />
+<<<<<<< HEAD
     <Compile Include="Infrastructure\Extensions\EntityExtensions.cs" />
     <Compile Include="Mappings\AutoMapperConfiguation.cs" />
     <Compile Include="Models\AreaViewModel.cs" />
     <Compile Include="Models\TableViewModel.cs" />
+=======
+>>>>>>> 5e2fe6c58a334e0d0325e2c28574de322a3778c7
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -191,6 +194,11 @@
     <Folder Include="Areas\Admin\Views\Shared\" />
     <Folder Include="Assets\admin\" />
     <Folder Include="Assets\client\" />
+<<<<<<< HEAD
+=======
+    <Folder Include="Infrastructure\Extensions\" />
+    <Folder Include="Models\" />
+>>>>>>> 5e2fe6c58a334e0d0325e2c28574de322a3778c7
     <Folder Include="Scripts\plugins\" />
     <Folder Include="Scripts\spa\" />
   </ItemGroup>
@@ -206,10 +214,13 @@
       <Project>{71a8ade7-5e95-4c6a-bfc1-bb619a4251ab}</Project>
       <Name>QLQuanCafe.Common</Name>
     </ProjectReference>
+<<<<<<< HEAD
     <ProjectReference Include="..\QLQuanCafe.Data\QLQuanCafe.Data.csproj">
       <Project>{436A8CB5-318C-451F-A881-04C98C86F66D}</Project>
       <Name>QLQuanCafe.Data</Name>
     </ProjectReference>
+=======
+>>>>>>> 5e2fe6c58a334e0d0325e2c28574de322a3778c7
     <ProjectReference Include="..\QLQuanCafe.Model\QLQuanCafe.Model.csproj">
       <Project>{E035AA4F-EAA9-4406-A5C4-B7E734DDD9E4}</Project>
       <Name>QLQuanCafe.Model</Name>
