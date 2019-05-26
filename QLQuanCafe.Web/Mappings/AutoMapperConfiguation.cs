@@ -11,8 +11,12 @@ namespace QLQuanCafe.Web.Mappings
     {
         public static void Configure()
         {
-            Mapper.CreateMap<Area, AreaViewModel>();
-
+            Mapper.Initialize(cfg =>
+            {
+                cfg.AllowNullCollections = true;
+                cfg.CreateMap<Area, AreaViewModel>().MaxDepth(2);
+                cfg.CreateMap<Table, TableViewModel>().MaxDepth(2);
+            });
         }
     }
 }

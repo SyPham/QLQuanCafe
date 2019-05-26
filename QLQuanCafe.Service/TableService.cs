@@ -51,7 +51,7 @@ namespace QLQuanCafe.Service
 
         public IEnumerable<Table> GetAll()
         {
-            return _tableRepository.GetAll(new string[] { "Area" });
+            return _tableRepository.GetAll(new string[] {"Area" });
         }
 
         public IEnumerable<Table> GetAllByAreaId(int areaID, int page, int pageSize, out int totalRow)

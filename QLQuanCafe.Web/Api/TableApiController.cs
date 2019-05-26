@@ -4,7 +4,6 @@ using QLQuanCafe.Service;
 using QLQuanCafe.Web.Infrastructure.Core;
 using QLQuanCafe.Web.Infrastructure.Extensions;
 using QLQuanCafe.Web.Models;
-
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -14,6 +13,7 @@ using System.Web.Http;
 
 namespace QLQuanCafe.Web.Api
 {
+    [RoutePrefix("api/table")]
     public class TableApiController : ApiControllerBase
     {
         ITableService _tableService;

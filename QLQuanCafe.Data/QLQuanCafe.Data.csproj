@@ -67,6 +67,18 @@
     <Compile Include="Migrations\201905140653573_AddErrorTable.Designer.cs">
       <DependentUpon>201905140653573_AddErrorTable.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201905261507108_Fix.cs" />
+    <Compile Include="Migrations\201905261507108_Fix.Designer.cs">
+      <DependentUpon>201905261507108_Fix.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201905261624200_Fix1.cs" />
+    <Compile Include="Migrations\201905261624200_Fix1.Designer.cs">
+      <DependentUpon>201905261624200_Fix1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201905261629486_Fix2.cs" />
+    <Compile Include="Migrations\201905261629486_Fix2.Designer.cs">
+      <DependentUpon>201905261629486_Fix2.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="QLQuanCafeDbContext.cs" />
@@ -98,6 +110,15 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201905140653573_AddErrorTable.resx">
       <DependentUpon>201905140653573_AddErrorTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201905261507108_Fix.resx">
+      <DependentUpon>201905261507108_Fix.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201905261624200_Fix1.resx">
+      <DependentUpon>201905261624200_Fix1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201905261629486_Fix2.resx">
+      <DependentUpon>201905261629486_Fix2.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

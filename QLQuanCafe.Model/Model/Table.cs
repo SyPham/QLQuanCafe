@@ -18,6 +18,7 @@ namespace QLQuanCafe.Model.Model
         public int AreaID { get; set; }
         [StringLength(100)]
         public string Name { get; set; }
+        public virtual Area Area { get; set; }
         public virtual IEnumerable<Area> Areas { get; set; }
     }
 }
